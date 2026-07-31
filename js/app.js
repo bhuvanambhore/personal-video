@@ -40,3 +40,6 @@ Play Video
 list.appendChild(card);
 
 });
+if(localStorage.getItem("loggedIn")!=="true"){
+location.href="login.html";
+}
