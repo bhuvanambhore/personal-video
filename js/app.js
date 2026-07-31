@@ -1,3 +1,6 @@
+if(localStorage.getItem("loggedIn")!=="true"){
+location.href="login.html";
+}
 const videos = [
 
 {
@@ -40,6 +43,3 @@ Play Video
 list.appendChild(card);
 
 });
-if(localStorage.getItem("loggedIn")!=="true"){
-location.href="login.html";
-}
